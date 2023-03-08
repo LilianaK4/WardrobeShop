@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.view.MakeOrder">
+  <grid id="27dc6" binding="makeOrderPanel" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="693" height="520"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="174bc" class="javax.swing.JRadioButton" binding="doubleWardrobeRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Double wardrobe  +850$"/>
+        </properties>
+      </component>
+      <hspacer id="7c9a0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="4c825" class="javax.swing.JTextField">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Choose accessories"/>
+        </properties>
+      </component>
+      <component id="903a7" class="javax.swing.JRadioButton" binding="singleWardrobeRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Single wardrobe  +550$"/>
+        </properties>
+      </component>
+      <component id="febf2" class="javax.swing.JButton" binding="confirmButton">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Confirm your order"/>
+        </properties>
+      </component>
+      <component id="ca91e" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="bf13b" class="javax.swing.JRadioButton" binding="additionalDrawerRadioButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Additional drawer  +99$"/>
+        </properties>
+      </component>
+      <component id="26472" class="javax.swing.JRadioButton" binding="meshBasketRadioButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mesh Basket  +159$"/>
+        </properties>
+      </component>
+      <component id="d3a55" class="javax.swing.JRadioButton" binding="clothesRailRadioButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clothes rail  +117$"/>
+        </properties>
+      </component>
+      <component id="9b533" class="javax.swing.JRadioButton" binding="additionalShelfRadioButton">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Additional shelf  +129$"/>
+        </properties>
+      </component>
+      <component id="2e0b7" class="javax.swing.JRadioButton" binding="mirrorRadioButton">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mirror  +250$"/>
+        </properties>
+      </component>
+      <component id="f70ce" class="javax.swing.JRadioButton" binding="shoeShelfRadioButton">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Shoe shelf  +56$"/>
+        </properties>
+      </component>
+      <component id="5e55b" class="javax.swing.JRadioButton" binding="pullOutTrousersHangerRadioButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pull-out trousers hanger  +173$"/>
+        </properties>
+      </component>
+      <component id="6486" class="javax.swing.JTextField" binding="chooseBaseTextField" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+          <text value="Choose base"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
